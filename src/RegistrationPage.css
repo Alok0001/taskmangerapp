@@ -1,0 +1,105 @@
+/* RegistrationPage.css */
+
+.registration-page {
+  font-family: 'Numans', sans-serif;
+  background-image: url('https://img.freepik.com/free-vector/abstract-gear-wheel-mechanism-background_41981-299.jpg?size=626&ext=jpg');
+  background-size: cover; /* Use "cover" to maintain aspect ratio and cover the entire container */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixed background for scrolling effect */
+  background-position: center center; /* Center the background image */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  }
+  
+  .container {
+    padding: 2rem;
+  }
+  
+  .registration-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  .registration-form {
+    flex: 1;
+    padding: 1rem;
+  }
+  
+  h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.8rem;
+  }
+  
+  .form-check {
+    margin-top: 1rem;
+  }
+  
+  .form-button button {
+    background-color: #007bff; /* Default button color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Change button color on hover */
+  .form-button button:hover {
+    background-color: #0056b3; /* New button color on hover */
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .btn-secondary {
+    background-color: #ccc;
+    color: #666;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: not-allowed;
+  }
+  
+  .registration-image {
+    flex: 1;
+  }
+  
+  .registration-image img {
+    width: 100%;
+    height: auto;
+  }
+  

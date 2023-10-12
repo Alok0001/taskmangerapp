@@ -1,0 +1,35 @@
+/* RegistrationSuccess.css */
+.registration-success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-background-with-connecting-dots-lines-network-connection-structure-3d-rendering_697329-30.jpg?w=1060'); /* Replace 'path/to/your-image.jpg' with the actual image path */
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    width: 1000px;
+  }
+  
+  .registration-success {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make text readable */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .login-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link:hover {
+    text-decoration: underline;
+  }
+  

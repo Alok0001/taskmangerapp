@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Numans');
+.container {
+  
+  
+  font-family: 'Numans', sans-serif;
+  background-image: url('https://previews.123rf.com/images/ndul/ndul1705/ndul170500007/79381701-concept-of-secured-internet-and-network-connection-between-computer-gadget-server-and-cloud.jpg');
+  background-size: cover; /* Use "cover" to maintain aspect ratio and cover the entire container */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixed background for scrolling effect */
+  background-position: center center; /* Center the background image */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+
+/* Card styles */
+.card {
+  max-height: 100%; /* Set a maximum height for the card */
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+  /* Social icon styles */
+  .social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+  }
+  
+  .social_icon span:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  /* Card header styles */
+  .card-header h3 {
+    color: white;
+  }
+  
+  /* Input group styles */
+  .input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+  }
+  
+  /* Input focus styles */
+  input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+  }
+  
+  /* "Remember Me" styles */
+  .remember {
+    color: white;
+  }
+  
+  .remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+  }
+  
+  /* Login button styles */
+  .login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+  }
+  
+  .login_btn:hover {
+    color: black;
+    background-color: white;
+  }
+  
+  /* Links styles */
+  .links {
+    color: rgb(241, 224, 224);
+  }
+  
+  .links a {
+    margin-left: 4px;
+  }
+  
+  /* Login message styles */
+  .login-message {
+    color: white;
+    margin-top: 10px;
+  }
+  
+  .signup-link {
+    color: #f85757; 
+    
+  }
+ 
+  
+  
+  
+  
+  
+  
